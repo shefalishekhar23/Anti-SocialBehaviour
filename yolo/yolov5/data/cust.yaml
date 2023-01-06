@@ -1,0 +1,10 @@
+
+train: ../weapon_data/images/train  # train images (relative to 'path') 128 images
+val: ../weapon_data/images/val  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+nc: 1
+names: ['weapon']
+# Download script/URL (optional)
+download: https://ultralytics.com/assets/coco128.zip
